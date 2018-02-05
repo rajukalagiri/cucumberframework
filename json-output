@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 25,
+        "name": "free crm login scenario",
+        "description": "",
+        "id": "crm-login-feature;free-crm-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5571022568,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is already on the Login Page",
+            "match": {
+              "location": "LoginStepDefination.loginTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136800988,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the is free crm",
+            "match": {
+              "location": "LoginStepDefination.titleValidTest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4792854202,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enters \"rajukalagiri\" and \"Reddy@107326\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rajukalagiri",
+                  "offset": 8
+                },
+                {
+                  "val": "Reddy@107326",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepDefination.EnteruserPassTest(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1158313476,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "is on homepage",
+            "match": {
+              "location": "LoginStepDefination.logintohomepageTest()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 696163208,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicks on contact page",
+            "match": {
+              "location": "LoginStepDefination.clocksonContact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3180567081,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks on new contact and enters \"Mr.\" and \"raju\" and \"kalagiri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr.",
+                  "offset": 34
+                },
+                {
+                  "val": "raju",
+                  "offset": 44
+                },
+                {
+                  "val": "kalagiri",
+                  "offset": 55
+                }
+              ],
+              "location": "LoginStepDefination.newcontact(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209759552,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "browser is closed",
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "free crm login scenario",
+        "description": "",
+        "id": "crm-login-feature;free-crm-login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4478402819,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is already on the Login Page",
+            "match": {
+              "location": "LoginStepDefination.loginTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151771409,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the is free crm",
+            "match": {
+              "location": "LoginStepDefination.titleValidTest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1489046423,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enters \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 8
+                },
+                {
+                  "val": "test@123",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefination.EnteruserPassTest(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1135983923,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "is on homepage",
+            "match": {
+              "location": "LoginStepDefination.logintohomepageTest()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 681505106,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicks on contact page",
+            "match": {
+              "location": "LoginStepDefination.clocksonContact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2364172023,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks on new contact and enters \"Mr.\" and \"naveen\" and \"k\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr.",
+                  "offset": 34
+                },
+                {
+                  "val": "naveen",
+                  "offset": 44
+                },
+                {
+                  "val": "k",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDefination.newcontact(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2119942997,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "browser is closed",
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Crm login feature",
+    "description": "",
+    "id": "crm-login-feature",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/crm/qa/feature/login.feature"
+  }
+]
