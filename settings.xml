@@ -4,7 +4,7 @@
     
     
     
-    <con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/>
+    <con:vcsConfiguration><con:vcsName>Git</con:vcsName><con:repositoryIdentifier>https://github.com/rajukalagiri/cucumberframework.git</con:repositoryIdentifier></con:vcsConfiguration><con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/>
     <con:properties/>
     <con:wssContainer/>
     <con:databaseConnectionContainer/>

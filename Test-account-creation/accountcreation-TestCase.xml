@@ -2,8 +2,8 @@
 <con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="accountcreation TestCase" searchProperties="true" id="6807bf67-21a2-4add-ae79-29496a981563" xmlns:con="http://eviware.com/soapui/config">
             <con:description>TestCase generated for REST Resource [accountcreation] located at [/accountcreation]
             </con:description>
-            <con:settings><con:setting id="6807bf67-21a2-4add-ae79-29496a981563fileName">accountcreation-TestCase</con:setting></con:settings>
-            <con:testStep type="VirtRunnerTestStep" name="Start Virt Service" id="d6e19654-c7c2-41d5-8238-4b0ea65244c0"><con:settings/><con:config><url>localhost</url><server>Account creation mock</server><action>run</action></con:config></con:testStep>
+            <con:settings><con:setting id="6807bf67-21a2-4add-ae79-29496a981563fileName">accountcreation-TestCase</con:setting><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting></con:settings>
+            <con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="VirtRunnerTestStep" name="Start Virt Service" id="d6e19654-c7c2-41d5-8238-4b0ea65244c0"><con:settings/><con:config><url>localhost</url><server>Account creation mock</server><action>run</action></con:config></con:testStep>
             <con:testStep type="restrequest" name="View Form" id="ca68c870-216b-4007-9ccc-b5ffa0dfc930">
                 <con:settings/>
                 <con:config service="Account creation" resourcePath="/accountcreation" methodName="Register a new account - viewAccountRegistration" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
