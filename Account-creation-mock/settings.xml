@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockService port="8096" path="/" name="Account creation mock" host="localhost" id="c92f5b66-e726-4417-bb48-e3b79ab9dc96" docroot="" xmlns:con="http://eviware.com/soapui/config">
+        <con:settings><con:setting id="c92f5b66-e726-4417-bb48-e3b79ab9dc96fileName">Account-creation-mock</con:setting></con:settings>
+        <con:properties/>
+        <con:constraints><con:congestion>0</con:congestion><con:inputBandwidth>-1</con:inputBandwidth><con:outputBandwidth>-1</con:outputBandwidth><con:maxThreadPoolCapacity>20</con:maxThreadPoolCapacity><con:coreThreadPoolCapacity>5</con:coreThreadPoolCapacity><con:virtError><con:start>0</con:start><con:endless>true</con:endless></con:virtError></con:constraints><con:headerValidator/>
+        
+    </con:restMockService>

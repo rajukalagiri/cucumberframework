@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" wadlVersion="http://research.sun.com/wadl/2006/10" name="Account creation" type="rest" basePath="/" definitionUrl="WSDL-WADL/WADL-service.wadl" id="dc3f939d-834c-4aa5-84ef-bcd94d6e276a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+        <con:settings><con:setting id="dc3f939d-834c-4aa5-84ef-bcd94d6e276afileName">Account-creation</con:setting></con:settings>
+
+        <con:definitionCache type="TEXT"/>
+        <con:endpoints>
+            <con:endpoint>http://localhost:8096</con:endpoint>
+        </con:endpoints>
+        
+    </con:interface>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite name="Test account creation" id="944b0ac9-17f6-4d95-afb0-491f31682c42" xmlns:con="http://eviware.com/soapui/config">
+        <con:description>Test Suite generated for REST Service [Sample REST project (5.0)]</con:description>
+        <con:settings><con:setting id="944b0ac9-17f6-4d95-afb0-491f31682c42fileName">Test-account-creation</con:setting></con:settings>
+        <con:runType>SEQUENTIAL</con:runType>
+        
+        <con:properties/>
+        <con:reportParameters/>
+    </con:testSuite>

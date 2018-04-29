@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="accountcreation" method="GET" resourcePath="/accountcreation" id="bd608e76-0936-40e0-ba81-ec1e66c42bcb" xmlns:con="http://eviware.com/soapui/config">
+            <con:settings><con:setting id="bd608e76-0936-40e0-ba81-ec1e66c42bcbfileName">accountcreation</con:setting></con:settings>
+            <con:defaultResponse>Form view</con:defaultResponse>
+            <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+            <con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Form View" httpResponseStatus="200" mediaType="text/html" id="d9c30178-64c2-40fa-9b42-4e9dbb8f0827" dataSource="">
+                <con:settings/>
+                <con:responseContent><![CDATA[<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Account registration</title>
+		<meta name="description" content="SoapUI Sample content">
+	</head>
+
+	<body>
+  		<h1>Welcome!</h1>
+  		<form action="accountcreation" method="post" name="account_registration_form">
+  			<input type="text" name="username" placeholder="John Doe" />
+			<input type="password" name="password" />
+			<input type="submit" name="password" />
+		</form>
+  	</body>
+</html>]]></con:responseContent>
+            </con:response>
+        </con:restMockAction>

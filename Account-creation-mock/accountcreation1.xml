@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="accountcreation" method="POST" resourcePath="/accountcreation" id="0c4708e7-5662-494d-a5ed-e6025c53694c" xmlns:con="http://eviware.com/soapui/config">
+            <con:settings><con:setting id="0c4708e7-5662-494d-a5ed-e6025c53694cfileName">accountcreation1</con:setting></con:settings>
+            <con:defaultResponse>Successful</con:defaultResponse>
+            <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+            <con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Successful" httpResponseStatus="200" mediaType="text/html" id="5721044e-32e6-4c8a-ac45-7c51f5a9f256" dataSource="">
+                <con:settings/>
+                <con:responseContent><![CDATA[<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Account registration</title>
+		<meta name="description" content="SoapUI Sample content"/>
+	</head>
+
+	<body>
+  		<h1>Welcome!</h1>
+  		<p>You have successfully registered your account!</p>
+	</body>
+</html>]]></con:responseContent>
+            </con:response>
+            <con:response name="Already Existing User" httpResponseStatus="200" mediaType="text/html" id="94b4f8ac-497c-41d0-9636-c53eadf03b41" dataSource="">
+                <con:settings/>
+                <con:responseContent><![CDATA[<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Account registration</title>
+		<meta name="description" content="SoapUI Sample content">
+	</head>
+
+	<body>
+  		<h1>User already exists</h1>
+  		<p>A user has already registered with the selected username - try another.</p>
+	</body>
+</html>]]></con:responseContent>
+            </con:response>
+            <con:response name="Internal Server Error" httpResponseStatus="500" mediaType="text/html" id="7eadb407-869a-4ef9-a3b7-f080c596df84" dataSource="">
+                <con:settings/>
+                <con:responseContent><![CDATA[<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Internal Server Error</title>
+		<meta name="description" content="SoapUI Sample content"/>
+	</head>
+
+	<body>
+  		<h1>The server was unable to serve your request</h1>
+  		<p>The server was unable to complete the request.</p>
+	</body>
+</html>]]></con:responseContent>
+            </con:response>
+        </con:restMockAction>

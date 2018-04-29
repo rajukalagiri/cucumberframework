@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="accountcreation" path="accountcreation" id="390e1dbf-da50-4ed6-95c6-b2ae63f8bcfe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+            <con:settings><con:setting id="390e1dbf-da50-4ed6-95c6-b2ae63f8bcfefileName">accountcreation</con:setting></con:settings>
+            <con:parameters/>
+            <con:method name="Register a new account - viewAccountRegistration" method="GET" id="6087f4b6-6f2e-4e81-a6c5-d39691ab6253">
+                <con:settings/>
+                <con:parameters/>
+                <con:representation type="RESPONSE" id="">
+                    <con:mediaType>text/html</con:mediaType>
+                    <con:params/>
+                    <con:element xsi:nil="true"/>
+                    <con:description xsi:nil="true"/>
+                </con:representation>
+                <con:request name="Registration Form" mediaType="application/json" id="99ba173e-4bb9-42e2-b7cd-17913ac21a47">
+                    <con:settings>
+                        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/>
+                        </con:setting>
+                    </con:settings>
+                    <con:endpoint>http://localhost:8096</con:endpoint>
+                    <con:request/>
+                    <con:originalUri>http://localhost/accountcreation</con:originalUri>
+                    <con:credentials>
+                        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType>
+                    </con:credentials>
+                    <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+                    <con:jmsPropertyConfig/>
+                    <con:parameters/>
+                </con:request>
+            </con:method>
+            <con:method name="Register a new account - createUserAccount" method="POST" id="717abaf7-5408-404a-be44-dfbe687dcecf">
+                <con:settings/>
+                <con:parameters>
+                    <con:parameter>
+                        <con:name>username</con:name>
+                        <con:value xsi:nil="true"/>
+                        <con:style>QUERY</con:style>
+                        <con:default xsi:nil="true"/>
+                    </con:parameter>
+                    <con:parameter>
+                        <con:name>password</con:name>
+                        <con:value xsi:nil="true"/>
+                        <con:style>QUERY</con:style>
+                        <con:default xsi:nil="true"/>
+                    </con:parameter>
+                </con:parameters>
+                <con:representation type="REQUEST" id="">
+                    <con:mediaType>application/json</con:mediaType>
+                    <con:params/>
+                    <con:element xsi:nil="true"/>
+                    <con:description xsi:nil="true"/>
+                </con:representation>
+                <con:representation type="RESPONSE" id="">
+                    <con:mediaType>text/html</con:mediaType>
+                    <con:params/>
+                    <con:element xsi:nil="true"/>
+                    <con:description xsi:nil="true"/>
+                </con:representation>
+                <con:request name="Submit Registration Form" mediaType="application/json" postQueryString="false" id="e54299fc-bbf2-4e45-868a-2eba508a1f80">
+                    <con:settings>
+                        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/>
+                        </con:setting>
+                    </con:settings>
+                    <con:endpoint>http://localhost:8096</con:endpoint>
+                    <con:request/>
+                    <con:originalUri>http://localhost/accountcreation</con:originalUri>
+                    <con:credentials>
+                        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType>
+                    </con:credentials>
+                    <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+                    <con:jmsPropertyConfig/>
+                    <con:parameters>
+                        <con:entry key="username" value="john"/>
+                        <con:entry key="password" value="w0j39av0d8s"/>
+                    </con:parameters>
+                </con:request>
+            </con:method>
+        </con:resource>
