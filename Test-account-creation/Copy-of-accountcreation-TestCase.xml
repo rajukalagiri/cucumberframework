@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Copy of accountcreation TestCase" searchProperties="true" id="ef96991d-af7e-4aa9-a1c0-465bc03eda7b" xmlns:con="http://eviware.com/soapui/config">
+            <con:description>TestCase generated for REST Resource [accountcreation] located at [/accountcreation]
+            </con:description>
+            <con:settings><con:setting id="6807bf67-21a2-4add-ae79-29496a981563fileName">accountcreation-TestCase</con:setting><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting><con:setting id="ef96991d-af7e-4aa9-a1c0-465bc03eda7bfileName">Copy-of-accountcreation-TestCase</con:setting></con:settings>
+            <con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="VirtRunnerTestStep" name="Start Virt Service" id="8cfa178a-b7a3-43f1-b5a7-6d7ed9e191f7"><con:settings/><con:config><url>localhost</url><server>Account creation mock</server><action>run</action></con:config></con:testStep>
+            <con:testStep type="restrequest" name="View Form" id="5baee854-93c4-4f29-ba15-bdd0da71c8ca">
+                <con:settings/>
+                <con:config service="Account creation" resourcePath="/accountcreation" methodName="Register a new account - viewAccountRegistration" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <con:restRequest name="View Form" mediaType="application/json" id="95e19827-3eed-4011-891f-f62164c5ebdd">
+                        <con:settings>
+                            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+                        </con:settings>
+                        <con:endpoint>http://localhost:8096</con:endpoint>
+                        <con:request/>
+                        <con:originalUri>http://localhost/accountcreation</con:originalUri>
+                        <con:credentials>
+                            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType>
+                        </con:credentials>
+                        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+                        <con:jmsPropertyConfig/>
+                        <con:parameters/>
+                    </con:restRequest>
+                </con:config>
+            </con:testStep>
+            <con:testStep type="restrequest" name="Submit Account Details" id="14455006-a1a3-49b1-b1d2-c4031f6ed969">
+                <con:settings/>
+                <con:config service="Account creation" resourcePath="/accountcreation" methodName="Register a new account - createUserAccount" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <con:restRequest name="Submit Account Details" mediaType="application/json" postQueryString="false" id="3b8459ba-1d9f-49c7-83fe-37a17040b0b7">
+                        <con:settings>
+                            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+                        </con:settings>
+                        <con:endpoint>http://localhost:8096</con:endpoint>
+                        <con:request/>
+                        <con:originalUri>http://localhost/accountcreation</con:originalUri>
+                        <con:credentials>
+                            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType>
+                        </con:credentials>
+                        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+                        <con:jmsPropertyConfig/>
+                        <con:parameters/>
+                    </con:restRequest>
+                </con:config>
+            </con:testStep><con:testStep type="VirtRunnerTestStep" name="Stop Virt Service" id="5d73d16d-3f31-4a69-ad81-7ebced3a8963"><con:settings/><con:config><url>localhost</url><server>Account creation mock</server><action>stop</action></con:config></con:testStep><con:properties/>
+            <con:reportParameters/>
+        <con:breakPoints><con:testStepId>d6e19654-c7c2-41d5-8238-4b0ea65244c0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase>
